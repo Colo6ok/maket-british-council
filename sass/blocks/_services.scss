@@ -1,0 +1,38 @@
+.services {
+    font-family: sans-serif;
+}
+
+.services__title {
+    margin-bottom: 30px;
+    color: grey;
+    font-weight: normal;
+}
+
+.services__box {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.subbox {
+    width: 400px;
+    margin-left: 15px;
+}
+
+.services__sub__title {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.services__desc {
+    color: grey;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.services__link {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    color: darkblue;
+    text-decoration: none;
+}

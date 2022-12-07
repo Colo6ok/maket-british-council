@@ -1,0 +1,55 @@
+.intro {
+    margin-bottom: 20px;
+}
+
+.intro__title {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    color: darkblue;
+}
+
+.intro__line {
+    width: 50px;
+    height: 5px;
+    display: block;
+    margin-bottom: 15px;
+    background-color: darkblue;
+}
+
+.intro__controller {
+    width: 40px;
+    min-height: 5px;
+    display: inline-block;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background-color: darkblue;
+    animation: line linear 0.5s infinite alternate;
+
+    @keyframes line {
+        0% {
+            transform: rotate(90deg);
+            width: 5px;
+        }
+        100% {
+            background-color: red;
+        }
+    }
+    // buni prosto tak qildim, animationlar esimdan chiqip qomaslig uchun.
+}
+
+.intro__wrapper {
+    max-width: 665px;
+}
+
+.intro__desc {
+    color: grey;
+    line-height: 23px;
+    font-size: 17px;
+    font-family: sans-serif;
+
+    &:nth-child(1) {
+        margin-bottom: 30px;
+    }
+}
